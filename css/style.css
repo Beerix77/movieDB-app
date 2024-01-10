@@ -1,0 +1,83 @@
+
+#results {
+  display: flex; /*display horizontally*/
+  flex-wrap: wrap; /* fit to window/screen etc */
+  /* margin: 10px; */
+}
+
+
+img {
+  margin: 10px;
+  box-sizing: border-box;
+  border: 1px solid hsl(0, 0%, 80%);
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.60); /* transparency etc */
+  border-radius: 15px; /* curve corners */
+  padding: 5px; /* if no poster image allow ALT to fit */
+}
+
+
+img:hover {
+  cursor: pointer;
+  color: green; /*text not cursor */
+  border: 1px solid green;
+
+}
+
+
+button:hover {
+  cursor: pointer;
+  color: green; /*text not cursor */
+}
+
+
+body {
+  display: grid; /* map to grid */
+  margin: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: darkgray;
+}
+  
+  
+h1 {
+  border: 1px solid hsl(0, 0%, 80%);
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.60);
+  border-radius: 15px;
+  text-align: center;
+  background-color:darkred;
+  color:  goldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin: 25px 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+.movieDetails {
+  border: 1px solid hsl(0, 0%, 80%);
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.60);
+  border-radius: 15px;
+  text-align: center;
+  background-color:rgb(169, 169, 169);
+  color:  black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin: 25px 200px;
+}
+
+
+.movieReviewHeading {
+  color: brown;
+  margin: 5px;
+}
+
+
+h2 {
+  border: 1px solid hsl(0, 0%, 80%);
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.60);
+  border-radius: 15px;
+  margin: auto 250px;
+  text-align: center;
+  background-color: goldenrod;
+}
